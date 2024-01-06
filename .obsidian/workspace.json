@@ -1,0 +1,172 @@
+{
+  "main": {
+    "id": "43d6be1e62dafc4a",
+    "type": "split",
+    "children": [
+      {
+        "id": "65c10c38c7efb9a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e9a3e44625770f84",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a9ab8a704cde416a",
+    "type": "split",
+    "children": [
+      {
+        "id": "93494473c8e910be",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1cdb81fd028c6aab",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f19a7ccb8d657a89",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bf9b900dc19f7879",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "60e867d1d86d68c1",
+    "type": "split",
+    "children": [
+      {
+        "id": "20e9455f12725cfd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7e71054322019ca6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "65ce57a785441540",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6f312f075bcde189",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6588206a75e239ef",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "e9a3e44625770f84",
+  "lastOpenFiles": [
+    "oppadu_function_frmCustomer.vba",
+    "oppadu_function_frmCustomer",
+    "oppadu_support_function_Frm.vba",
+    "oppadu_support_function_DB.vba",
+    "oppadu_support_function_Array.vba",
+    "2. Inventory_program_sample/0E6E7910",
+    "2. Inventory_program_sample/BC5E7910",
+    "2. Inventory program by VBA.md",
+    "2_Inventory program by VBA.md",
+    "1_basic SQL by VBA.md",
+    "1_basic_SQL_by_VBA_sample/엑셀-고급필터-자동화-서식-v1.0.xlsm",
+    "1_basic_SQL_by_VBA_sample/퀵VBA-12-엑셀-VBA-관계형-DB-구축-완성파일.xlsm",
+    "1_basic_SQL_by_VBA_sample/퀵VBA-1-엑셀-파일선택창-총정리-완성파일.xlsm",
+    "1_basic_SQL_by_VBA_sample/퀵VBA-12-엑셀-VBA-관계형-DB-구축-보충자료.pdf",
+    "2. Inventory_program_sample/재고관리 프로그램 2일차 - 수정_아이콘.bmp",
+    "2. Inventory_program_sample/재고관리 프로그램 2일차 - 검색_아이콘.bmp",
+    "obsidian_resource/update_Record_이해.png",
+    "obsidian_resource/update_Record_이해.png",
+    "obsidian_resource/리스트박스선택시텍스트박스완성.png",
+    "obsidian_resource/거래처 sheet 데이터가져오기.png",
+    "1. basic SQL by VBA.md",
+    "obsidian_resource/관리폼나오게하기.png",
+    "obsidian_resource/거래처관리유저폼.png",
+    "obsidian_resource/Method.png",
+    "obsidian_resource/Class.png",
+    "README.md"
+  ]
+}

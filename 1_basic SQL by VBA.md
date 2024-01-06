@@ -1,20 +1,23 @@
 ### 단축키 정리
 
-VBA editor: Alt F11
-VBA executing: F5
-VBA debugging : F8
-Object explain in VBA editor: F2 in VBA editor
-See Properties of Class in VBA editor: F4
+- VBA editor: Alt F11
+- VBA executing: F5
+- VBA debugging : F8
+ - Object explain in VBA editor: F2 in VBA editor
+- See Properties of Class in VBA editor: F4
 
 ### Class 정리
-![Alt text](Class.png)
+![[obsidian_resource/Class.png]]
 
 ### Method 정리
-![Alt text](Method.png)
+![[obsidian_resource/Method.png]]
 
 ### FolderDialog method 정리
 
-`Multiple_FileDialog ( Title, FilterName, FilterExt, InitialFolder, InitialView, MultiSelection, PathDelimiter, withPath, withExt )
+```VBA
+Multiple_FileDialog ( Title, FilterName, FilterExt, InitialFolder, InitialView, MultiSelection, PathDelimiter, withPath, withExt )
+```
+
 
 - Title : 엑셀 파일선택창에 보이는 제목입니다.
 - FilterName : 확장자 필터에 표시될 필터 이름입니다.
@@ -25,3 +28,6 @@ See Properties of Class in VBA editor: F4
 - PathDelimiter : 여러개의 파일을 구분할 구분자입니다. 특별한 상황을 제외하고 기본값을 유지합니다. (기본값 : "|")
 - withPath : TRUE일 경우 파일경로를 함께 출력합니다. (기본값: TRUE)
 - withExt : TRUE일 경우 파일확장자를 함께 출력합니다. (기본값: TRUE)
+
+### VBA 디버깅 방법 핵심
+https://www.oppadu.com/%ec%97%91%ec%85%80-vba-%eb%94%94%eb%b2%84%ea%b9%85/#1-1
