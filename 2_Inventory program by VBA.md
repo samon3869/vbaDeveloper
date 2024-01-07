@@ -35,6 +35,10 @@
 - 초기화 버튼 활성화
 ![초기화버튼활성화](obsidian_resource/초기화버튼활성화.gif)
 
+- 등록 버튼 활성화
+![등록버튼활성화](obsidian_resource\등록버튼활성화.gif)
+![등록버튼활성화_코드](obsidian_resource\등록버튼활성화_코드.png)
+
 ##### (2) 콤보박스, 리스트박스
 
 

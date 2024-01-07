@@ -1,10 +1,15 @@
-Private Sub btnEdit_MouseDown(Byval Button As Integer, Byval Shift As Integer, Byval X As Single, Byval Y As Single)
+Private Sub btnEdit_MouseDown(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
 EditCustomer
 End Sub
 
 Private Sub btnInit_MouseDown(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
 Initialize
 End Sub
+
+Private Sub btnRegister_MouseDown(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
+RegisterCustomer
+End Sub
+
 
 ' 리스트박스가 클릭되었을 때 선택된 항목의 데이터를 각 텍스트박스에 채우기
 Private Sub lstMain_Click()
@@ -94,8 +99,18 @@ Me.txtPIC.Value = ""
 End Sub
 
 
+Sub RegisterCustomer()
 
+Dim DB As Variant
 
+Insert_Record shtCustomer, Me.txtCustomer.Value, Me.txtContact.Value, Me.txtPIC.Value, Me.txtAddress.Value
 
+DB = Get_DB(shtCustomer)
 
+Update_List Me.lstMain, DB, "0pt;120pt;100pt;80pt;150pt;"
 
+Initialize
+
+MsgBox "Customer Information register completed.", vbInformation
+
+End Sub
