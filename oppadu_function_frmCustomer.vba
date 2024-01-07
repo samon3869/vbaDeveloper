@@ -1,3 +1,12 @@
+Private Sub btnClose_MouseDown(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
+Unload Me
+End Sub
+
+
+Private Sub txtSearch_Change()
+Filter_ListBox
+End Sub
+
 
 Private Sub btnDelete_MouseDown(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
 DeleteCustomer
