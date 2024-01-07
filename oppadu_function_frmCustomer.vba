@@ -81,7 +81,7 @@ Sub Filter_ListBox()
 Dim DB As Variant
 
 DB = Get_DB(shtCustomer)
-DB = Filterd_DB(DB, Me.txtSearch.Value)
+DB = Filtered_DB(DB, Me.txtSearch.Value)
 
 Update_List Me.lstMain, DB, "0pt;120pt;100pt;80pt;150pt;"
 
@@ -114,6 +114,11 @@ End Sub
 
 
 Sub RegisterCustomer()
+
+If Me.txtCustomer.Value = "" Then MsgBox "insert Customer": Exit Sub
+If Me.txtContact.Value = "" Then MsgBox "insert Contact": Exit Sub
+If Me.txtPIC.Value = "" Then MsgBox "insert Person In Charge": Exit Sub
+If Me.txtAddress.Value = "" Then MsgBox "insert Address": Exit Sub
 
 Dim DB As Variant
 

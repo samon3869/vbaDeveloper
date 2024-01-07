@@ -39,6 +39,9 @@
 ![등록버튼활성화](obsidian_resource\등록버튼활성화.gif)
 ![등록버튼활성화_코드](obsidian_resource\등록버튼활성화_코드.png)
 
+- 등록 유효성 검증
+![등록유효성검증](obsidian_resource\등록유효성검증.gif)
+
 - 삭제 버튼 활성화
 ![삭제버튼활성화](obsidian_resource\삭제버튼활성화.gif)
 
