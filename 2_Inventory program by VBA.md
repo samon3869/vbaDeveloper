@@ -18,18 +18,22 @@
 ##### (1) 유저폼 기초
 ###### i. view
 - 거래처 관리 폼 만들기
-![거래처관리유저폼](거래처관리유저폼.png)
+![거래처관리유저폼](obsidian_resource/거래처관리유저폼.png)
 
 - 거래처 관리 폼 나오게 하기
-![관리폼나오게하기](관리폼나오게하기.png)
+![관리폼나오게하기](obsidian_resource/관리폼나오게하기.png)
 
 ###### ii. read
 - 거래처 sheet 데이터 가져오기
-![거래처 sheet 데이터가져오기](거래처sheet데이터가져오기.png)-  리스트박스 선택시 텍스트박스 자동완성
-![리스트박스선택시텍스트박스완성](리스트박스선택시텍스트박스완성.png)
+![거래처 sheet 데이터가져오기](obsidian_resource/거래처sheet데이터가져오기.png)-  리스트박스 선택시 텍스트박스 자동완성
+![리스트박스선택시텍스트박스완성](obsidian_resource/리스트박스선택시텍스트박스완성.png)
 ###### iii. update
 - record 업데이트
-![update_Record_이해](update_Record_이해.png)
+![update_Record_이해](obsidian_resource/update_Record_이해.png)
+
+
+- 초기화 버튼 활성화
+![초기화버튼활성화](obsidian_resource/초기화버튼활성화.gif)
 
 ##### (2) 콤보박스, 리스트박스
 

@@ -2,6 +2,10 @@ Private Sub btnEdit_MouseDown(Byval Button As Integer, Byval Shift As Integer, B
 EditCustomer
 End Sub
 
+Private Sub btnInit_MouseDown(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
+Initialize
+End Sub
+
 ' 리스트박스가 클릭되었을 때 선택된 항목의 데이터를 각 텍스트박스에 채우기
 Private Sub lstMain_Click()
 
@@ -80,6 +84,14 @@ End With
 End Sub
 
 
+Sub Initialize()
+
+Me.txtCustomer.Value = ""
+Me.txtContact.Value = ""
+Me.txtAddress.Value = ""
+Me.txtPIC.Value = ""
+
+End Sub
 
 
 
