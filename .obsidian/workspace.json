@@ -11,8 +11,12 @@
             "id": "e9a3e44625770f84",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2_Inventory program by VBA.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "obsidian_resource/update_Record_이해.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "obsidian_resource/update_Record_이해.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "obsidian_resource/update_Record_이해.png"
+              }
             }
           }
         ],
@@ -137,11 +145,51 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "e9a3e44625770f84",
+  "floating": {
+    "id": "e433c8dbff717aaa",
+    "type": "floating",
+    "children": [
+      {
+        "id": "59fb6363b72a73bd",
+        "type": "window",
+        "children": [
+          {
+            "id": "2e0baac41ee800e7",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0e7e7ef8e2c67d24",
+                "type": "leaf",
+                "state": {
+                  "type": "image",
+                  "state": {
+                    "file": "obsidian_resource/update_Record_이해.png"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -1600,
+        "y": -206,
+        "width": 1024,
+        "height": 800,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "0e7e7ef8e2c67d24",
   "lastOpenFiles": [
+    "2_Inventory program by VBA.md",
+    "obsidian_resource/거래처sheet데이터가져오기.png",
+    "obsidian_resource/update_Record_이해.png",
+    "1_basic_SQL_by_VBA_sample/퀵VBA-12-엑셀-VBA-관계형-DB-구축-보충자료.pdf",
     "oppadu_function_frmCustomer.vba",
     "oppadu_function_frmCustomer",
     "oppadu_support_function_Frm.vba",
@@ -150,18 +198,12 @@
     "2. Inventory_program_sample/0E6E7910",
     "2. Inventory_program_sample/BC5E7910",
     "2. Inventory program by VBA.md",
-    "2_Inventory program by VBA.md",
     "1_basic SQL by VBA.md",
     "1_basic_SQL_by_VBA_sample/엑셀-고급필터-자동화-서식-v1.0.xlsm",
     "1_basic_SQL_by_VBA_sample/퀵VBA-12-엑셀-VBA-관계형-DB-구축-완성파일.xlsm",
-    "1_basic_SQL_by_VBA_sample/퀵VBA-1-엑셀-파일선택창-총정리-완성파일.xlsm",
-    "1_basic_SQL_by_VBA_sample/퀵VBA-12-엑셀-VBA-관계형-DB-구축-보충자료.pdf",
     "2. Inventory_program_sample/재고관리 프로그램 2일차 - 수정_아이콘.bmp",
     "2. Inventory_program_sample/재고관리 프로그램 2일차 - 검색_아이콘.bmp",
-    "obsidian_resource/update_Record_이해.png",
-    "obsidian_resource/update_Record_이해.png",
     "obsidian_resource/리스트박스선택시텍스트박스완성.png",
-    "obsidian_resource/거래처 sheet 데이터가져오기.png",
     "1. basic SQL by VBA.md",
     "obsidian_resource/관리폼나오게하기.png",
     "obsidian_resource/거래처관리유저폼.png",
