@@ -39,6 +39,27 @@
 ![등록버튼활성화](obsidian_resource\등록버튼활성화.gif)
 ![등록버튼활성화_코드](obsidian_resource\등록버튼활성화_코드.png)
 
+- 삭제 버튼 활성화
+![삭제버튼활성화](obsidian_resource\삭제버튼활성화.gif)
+
+```VB
+'########################
+' 시트에서 ID 를 갖는 레코드 삭제
+' Delete_Record Sheet1, ID
+'########################
+Sub Delete_Record(WS As Worksheet, ID)
+
+Dim cRow As Long
+
+If IsNumeric(ID) = True Then ID = CLng(ID)
+
+With WS
+    cRow = get_UpdateRow(WS, ID)
+    .Cells(cRow, 1).EntireRow.Delete
+End With
+
+End Sub
+```
 ##### (2) 콤보박스, 리스트박스
 
 

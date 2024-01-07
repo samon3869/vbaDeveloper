@@ -1,3 +1,8 @@
+
+Private Sub btnDelete_MouseDown(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
+DeleteCustomer
+End Sub
+
 Private Sub btnEdit_MouseDown(ByVal Button As Integer, ByVal Shift As Integer, ByVal X As Single, ByVal Y As Single)
 EditCustomer
 End Sub
@@ -113,4 +118,20 @@ Initialize
 
 MsgBox "Customer Information register completed.", vbInformation
 
+End Sub
+
+
+Sub DeleteCustomer()
+
+Dim DB As Variant
+
+Delete_Record shtCustomer, Me.txtID.Value
+
+DB = Get_DB(shtCustomer)
+
+Update_List Me.lstMain, DB, "0pt;120pt;100pt;80pt;150pt;"
+
+Initialize
+
+MsgBox "Customer Information delete completed.", vbInformation
 End Sub
