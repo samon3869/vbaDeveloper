@@ -124,6 +124,10 @@ End Sub
 Sub DeleteCustomer()
 
 Dim DB As Variant
+Dim YN As VbMsgBoxResult
+
+YN = MsgBox("Do you really wanna delete customer information? it can't be undone", vbYesNo)
+If YN = vbNo Then Exit Sub
 
 Delete_Record shtCustomer, Me.txtID.Value
 
